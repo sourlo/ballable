@@ -200,8 +200,8 @@ a:active .icon,a:focus .icon{color:#fff}
 #global-bar ul li a{-webkit-border-radius:3px;border-radius:3px;color:#414347;font-size:1em;padding:.3em .5em .3em .5em;cursor:pointer}
 #global-bar ul li.selected > a{background:#414347;border-color:#414347;color:#fff;}
 #global-bar ul li.selected > a:active,#global-bar ul li.selected > a:focus{background:#9c9ea0;border-color:#9c9ea0;color:#fff}
-body.mootools #global-bar{padding-bottom:2em;padding-top:2em;position:relative;}
-body.mootools #global-bar h1{padding:0}
+body.body1 #global-bar{padding-bottom:2em;padding-top:2em;position:relative;}
+body.body1 #global-bar h1{padding:0}
 #logo{float:left;}
 #logo h1 img{height:70px !important}
 #logo p img{width:150px;padding:.5em}
@@ -230,7 +230,7 @@ body.mootools #global-bar h1{padding:0}
 #sitemap ul li a span.icon{margin-right:.5em;font-size:100%}
 #credits{font-size:.8em;}
 #credits p{margin:0 0 1em}
-#credits img.mootools{width:150px;padding:.5em;margin-left:-.5em}
+#credits img.phr{width:150px;padding:.5em;margin-left:-.5em}
 #credits p.mediatemple a{background:url("/images/credits/mediatemple.png") no-repeat left top;border-color:url("/images/credits/mediatemple.png") no-repeat left top;color:#fff;-webkit-background-size:auto 16px;-moz-background-size:auto 16px;background-size:auto 16px;color:#dedfdf;font-size:.85em;font-weight:300;padding-left:46px;}
 #credits p.mediatemple a:active,#credits p.mediatemple a:focus{color:#dedfdf !important}
 @media only screen and (max-width: 47.999em) /* Less than 600 pixels */{.arrow:after{font-size:80%;margin-left:.3em;position:relative;top:0;vertical-align:baseline}
@@ -351,7 +351,6 @@ body.mootools #global-bar h1{padding:0}
 pre span.number{color:#429bc1}
 pre span.string{color:#83a440}
 pre span.comment{color:#9c9ea0}
-.mootools #header{border-bottom:1px solid #fff}
 .previous-version{margin-top:1em;}
 .previous-version label.select{position:relative}
 @media screen and (-webkit-min-device-pixel-ratio: 0) /* Chrome and Safari only */{label.select:after{content:'<>';font:11px "Consolas",monospace;padding:3px;-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-ms-transform:rotate(90deg);-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-o-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg);right:8px;top:3px;position:absolute;pointer-events:none}
