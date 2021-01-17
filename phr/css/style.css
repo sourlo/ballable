@@ -230,7 +230,7 @@ body.body1 #global-bar h1{padding:0}
 #sitemap ul li a span.icon{margin-right:.5em;font-size:100%}
 #credits{font-size:.8em;}
 #credits p{margin:0 0 1em}
-#credits img.phr{width:150px;padding:.5em;margin-left:-.5em}
+#credits img.phr{width:100px;padding:.5em;margin-left:-.5em}
 #credits p.mediatemple a{background:url("/images/credits/mediatemple.png") no-repeat left top;border-color:url("/images/credits/mediatemple.png") no-repeat left top;color:#fff;-webkit-background-size:auto 16px;-moz-background-size:auto 16px;background-size:auto 16px;color:#dedfdf;font-size:.85em;font-weight:300;padding-left:46px;}
 #credits p.mediatemple a:active,#credits p.mediatemple a:focus{color:#dedfdf !important}
 @media only screen and (max-width: 47.999em) /* Less than 600 pixels */{.arrow:after{font-size:80%;margin-left:.3em;position:relative;top:0;vertical-align:baseline}
