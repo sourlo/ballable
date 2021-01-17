@@ -296,7 +296,6 @@ body.body1 #global-bar h1{padding:0}
 .overview .big-icon img{height:auto;opacity:.4;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";filter:alpha(opacity=40);width:100%;-webkit-transition:-webkit-transform .5s ease;-moz-transition:-moz-transform .5s ease;-o-transition:-o-transform .5s ease;-ms-transition:-ms-transform .5s ease;transition:transform .5s ease}
 .overview .use li{width:9.6em}
 .overview .previous-version select{width:19.2em}
-.modules{padding-top:2em;padding-bottom:2em;}
 .modules section{position:relative;clear:both}
 .modules div{margin-top:1.5em;width:48%;}
 .modules div:nth-of-type(odd){float:left}
