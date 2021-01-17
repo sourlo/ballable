@@ -191,7 +191,7 @@ a:active .icon,a:focus .icon{color:#fff}
 .guides .content ul li:after{content:'\e80c';float:left;font-family:"Entypo";font-size:100%;margin:.2em .5em 0 0}
 .guides .content pre{margin:.5em 0 0;}
 .guides .content pre code{padding:.25em .5em}
-#global-bar{-webkit-box-shadow:rgba(0,0,0,0.1) 0 0 30px;box-shadow:rgba(0,0,0,0.1) 0 0 30px;padding-bottom:1em;padding-top:1em;position:fixed;width:100%;background-color:#fff;z-index:100;}
+#global-bar{-webkit-box-shadow:rgba(0,0,0,0.1) 0 0 30px;box-shadow:rgba(0,0,0,0.1) 0 0 30px;padding-top:1em;position:fixed;width:100%;background-color:#fff;z-index:100;}
 #global-bar div.wrapper{position:relative;}
 #global-bar div.wrapper div.right{bottom:4px;position:absolute;right:4%}
 #global-bar ul > li > a:active,#global-bar ul > li > a:focus{background:#9c9ea0;border-color:#9c9ea0;color:#fff}
