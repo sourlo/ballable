@@ -289,7 +289,7 @@ body.body1 #global-bar h1{padding:0}
 #sitemap div ul{opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0);padding:0 2em 1em 2em}
 #sitemap .opened{height:11em}
 #sitemap .opened ul{opacity:1;-ms-filter:none;filter:none}
-#credits{padding:1em 4% 2em;clear:both}
+#credits{padding:1em 1em;clear:both}
 }@media only screen and (min-width: 48em) /* More or equal to 768 pixels */{.arrow:after{font-size:80%;margin-left:.3em;position:relative;top:0;vertical-align:baseline}
 .overview{padding-top:3em;position:relative;}
 .overview .big-icon{bottom:0;height:230px;overflow:hidden;position:absolute;right:4%;width:400px;z-index:-1;padding:50px 50px 0 50px;}
