@@ -200,7 +200,7 @@ a:active .icon,a:focus .icon{color:#fff}
 #global-bar ul li a{-webkit-border-radius:3px;border-radius:3px;color:#414347;font-size:1em;padding:.3em .5em .3em .5em;cursor:pointer}
 #global-bar ul li.selected > a{background:#414347;border-color:#414347;color:#fff;}
 #global-bar ul li.selected > a:active,#global-bar ul li.selected > a:focus{background:#9c9ea0;border-color:#9c9ea0;color:#fff}
-body.body1 #global-bar{padding-bottom:2em;padding-top:2em;position:relative;}
+body.body1 #global-bar{position:relative;}
 body.body1 #global-bar h1{padding:0}
 #logo{float:left;}
 #logo h1 img{height:70px !important}
