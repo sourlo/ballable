@@ -78,7 +78,7 @@ a:active .icon,a:focus .icon{color:#fff}
 .twitter:after{content:'\e802';font-family:"Entypo Social"}
 .facebook:after{content:'\e800';font-family:"Entypo Social"}
 .googleplus:after{content:'\e801';font-family:"Entypo Social"}
-.about{background:#e5e8ed;padding-top:0;padding-bottom:1em;}
+.about{background:#e5e8ed;padding-top:0;padding-bottom:3px;}
 .about .introduction p{font-size:1.3em;margin:1em 0}
 .about .license{background:#fff;border:solid #e5e3df 1px;-webkit-border-radius:5px;border-radius:5px;color:#b1b9c9;margin:1.5em 0 0;padding:1em;}
 .about .license h2{margin-bottom:.5em}
