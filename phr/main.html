@@ -1,43 +1,56 @@
-
 <!DOCTYPE html>
-	<html lang="ko-kr">
-		<head>
-			<title>hyelong91</title>
-				<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:200,300,400,600,700,200italic,300italic,400italic,600italic,700italic">
-				<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,500,600,700">
-				<link rel="preconnect" href="https://fonts.gstatic.com">
-				<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
-				<link rel="stylesheet" href="./css/style.css">
-				<meta name="viewport" content="width=device-width, user-scalable=no">
-				<meta charset="utf-8" />
-				
-		</head>
-		<body class="body1">
-			<header id="header" role="banner">
-				<div id="global-bar" class="clearfix">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Park,Hye-Ryeon</title>
+    <link rel="stylesheet" href="./css/style3.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="navigation">
+        <ul>
+            <li>
+                <a href="main.html">
+                    <span class="icon"><i class="fas fa-home"></i></span>
+                    <span class="title">Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="history.html">
+                    <span class="icon"><i class="fas fa-user-circle"></i></span>
+                    <span class="title">About</span>
+                </a>
+            </li>            
+            <li>
+                <a href="step.html">
+                    <span class="icon"><i class="fas fa-h-square"></i></span>
+                    <span class="title">How-To</span>
+                </a>
+            </li>            
+        </ul>
+    </div>
+    		<header id="header" >
+				<div id="global-bar1" class="clearfix">
 					<div class="clearfix wrapper">
-						<div id="logo"><h1>
-						<a href="main.html"><img src="./images/logo/logo1.png" alt="" ></a></h1>						
-						<p class="visually-hidden">Your resources for every-day JavaScripting</p></div>
-						<div id="main-header" class="right clearfix">
-							<ul>
-								<li><a href="history.html">Histiry</a></li>
-								<li><a href="step.html">Coaching algolism</a></li>
-								<li><a href="/blog">How to</a></li>
-								<li><a href="movie.html">movie</a></li>
-								<li><a href="">contact</a></li>
-							</ul>							
-						</div>
+						
+						<!-- park hye ryeon title  -->
+						
+						<div id="logo"><h1><a href="main.html"><img src="./images/logo/logo1.png" alt="" ></a></h1></div>
+						
 					</div>
 				</div>
 			</header>
+    			<hr>
 			<div role="main" class="main clearfix">
-				<div class="about"></div>
-			
-			<div class="clearfix wrapper examples modules"><section><div><img src="./images/logo/mainback.png" alt="heylong"></div></section></div>
-			
-
+				
+				<div class="clearfix wrapper examples modules"><section><div><img src="./images/logo/mainback.png" alt="heylong"></div></section></div>
+				<hr>
 			</div>
+					
 
 <hr>
 <footer id="footer" class="clearfix wrapper">	
@@ -45,5 +58,18 @@
 		<p><a href="/"><img src="./images/logo/logo2.png" alt="" class="phr"></a>HP:010-0000-0000 / E-MAIL:aaa@naver.com</p>				
 	</div>
 </footer>
+				
+				
+			
+    <div class="toggle" onclick="toggleMenu()"></div>
+    <!-- 토글키 클릭시 메뉴 확장 구현 -->
+    <script type="text/javascript">
+        function toggleMenu() {
+            let navigation = document.querySelector('.navigation');
+            let toggle = document.querySelector('.toggle');
+            navigation.classList.toggle('active');
+            toggle.classList.toggle('active');
+        }
+    </script>
 </body>
 </html>
